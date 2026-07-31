@@ -19,7 +19,7 @@ icon.filename = %(source.dir)s/icon.png
 android.permissions = VIBRATE,WAKE_LOCK,POST_NOTIFICATIONS,RECEIVE_BOOT_COMPLETED,FOREGROUND_SERVICE
 
 android.api = 34
-android.minapi = 23
+android.minapi = 24
 android.ndk = 25b
 android.accept_sdk_license = True
 android.archs = arm64-v8a, armeabi-v7a
