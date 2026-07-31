@@ -9,7 +9,7 @@ source.include_patterns = alarm alert/*
 
 version = 1.0
 
-requirements = python3,kivy==2.3.0,cython==0.29.36
+requirements = python3==3.11.9,kivy==2.3.0,cython==0.29.36
 
 orientation = portrait
 fullscreen = 0
