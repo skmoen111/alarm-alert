@@ -24,6 +24,9 @@ jobs:
             pkg-config zlib1g-dev libncurses-dev cmake libffi-dev libssl-dev \
             automake build-essential libltdl-dev
 
+      - name: Force JAVA_HOME to JDK 17 (Gradle requires it)
+        run: echo "JAVA_HOME=$JAVA_HOME_17_X64" >> $GITHUB_ENV
+
       - name: Install buildozer
         run: |
           pip install --upgrade pip
